@@ -117,6 +117,7 @@ Password: mahasiswa123
 Akses: /tickets
 
 **Project Structure**
+```text
 helpdesk-systemPENS/
 ├── app/
 │   ├── Http/Controllers/
@@ -131,6 +132,7 @@ helpdesk-systemPENS/
 ├── database/migrations/
 ├── resources/views/
 └── routes/web.php
+```
 
 <div align="center">
 ⭐ Jangan lupa kasih star jika project ini membantu!
