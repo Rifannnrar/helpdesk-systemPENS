@@ -7,18 +7,11 @@
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-**Sistem Tiket Bantuan Helpdesk Fasilitas Kampus PENS**  
-<<<<<<< HEAD
+** Tugas Sistem Tiket Bantuan Helpdesk Fasilitas Kampus PENS**  
 _Lapor masalah fasilitas, dapatkan solusi cepat! 🚀_
-=======
-*Lapor masalah fasilitas, dapatkan solusi cepat! 🚀*
->>>>>>> 4e28d92c1dc4da6e811570d5ce690e829f5341c3
-
-[📖 Dokumentasi](#-dokumentasi) • [🎯 Fitur](#-fitur) • [🛠️ Instalasi](#️-instalasi) • [👥 Roles](#-roles)
 
 </div>
 
-<<<<<<< HEAD
 ## 🎯 Fitur Utama
 
 ### 👨‍💻 Untuk Admin
@@ -57,14 +50,16 @@ _Lapor masalah fasilitas, dapatkan solusi cepat! 🚀_
 
 1. **Clone Repository**
 
-````bash
+```bash
 git clone https://github.com/username-kamu/helpdesk-systemPENS.git
 cd helpdesk-system-pens
+```
 
 2. **Setup Environment**
 ```bash
 copy .env.example .env
 php artisan key:generate
+```
 
 3. **Konfigurasi Database**
 Edit file .env:
@@ -75,17 +70,20 @@ DB_PORT=3306
 DB_DATABASE=helpdesk_pens
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
 4. **Jalankan Migration & Buat User**
 ```bash
 php artisan migrate
 php artisan tinker
+```
 
 5. **Di tinker paste:**
 ```bash
 \App\Models\User::create(['name'=>'Admin PENS','email'=>'admin@pens.ac.id','password'=>bcrypt('admin123'),'role'=>'admin']);
 \App\Models\User::create(['name'=>'Mahasiswa PENS','email'=>'mahasiswa@pens.ac.id','password'=>bcrypt('mahasiswa123'),'role'=>'mahasiswa']);
 exit;
+```
 
 6. **Storage Link & Clear Cache**
 ```bash
@@ -94,14 +92,16 @@ php artisan config:clear
 php artisan cache:clear
 php artisan route:clear
 php artisan view:clear
+```
 
 7. **Jalankan Server**
 ```bash
 php artisan serve
+```
 
 Buka:  http://localhost:8000 🎉
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 👥 Login Default
 Admin
@@ -117,6 +117,8 @@ Email: mahasiswa@pens.ac.id
 Password: mahasiswa123
 
 Akses: /tickets
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 **Project Structure**
 helpdesk-systemPENS/
@@ -138,3 +140,4 @@ helpdesk-systemPENS/
 ⭐ Jangan lupa kasih star jika project ini membantu!
 
 </div> ```
+````
