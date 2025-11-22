@@ -14,10 +14,6 @@
 
 </div>
 
-## 📸 Preview
-
-![Dashboard Admin](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Dashboard+Admin+Preview)
-![Form Tiket](https://via.placeholder.com/800x400/10B981/FFFFFF?text=Form+Buat+Tiket+Preview)
 
 ## 🎯 Fitur Utama
 
@@ -48,12 +44,11 @@
 ### Prerequisites
 - PHP 8.2+
 - Composer
-- MySQL
-- Laragon/XAMPP
+- Laragon
 
 ### Step by Step
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/username-kamu/helpdesk-system-pens.git
+git clone https://github.com/username-kamu/helpdesk-systemPENS.git
 cd helpdesk-system-pens
