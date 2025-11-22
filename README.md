@@ -150,8 +150,7 @@ helpdesk-system-pens/
 └── routes/web.php
 ```
 
-🤝 **Kontribusi**
-Ingin berkontribusi? Silakan!
+🤝 **Ingin berkontribusi? Silakan!**
 1. Fork project ini
 2. Buat feature branch (git checkout -b feature/AmazingFeature)
 3. Commit changes (git commit -m 'Add some AmazingFeature')
