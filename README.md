@@ -101,8 +101,6 @@ php artisan serve
 
 Buka:  http://localhost:8000 🎉
 
------------------------------------------------------------------------------------------------------------------------------------------------
-
 👥 Login Default
 Admin
 Email: admin@pens.ac.id
@@ -117,8 +115,6 @@ Email: mahasiswa@pens.ac.id
 Password: mahasiswa123
 
 Akses: /tickets
-
------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Project Structure**
 helpdesk-systemPENS/
@@ -140,4 +136,3 @@ helpdesk-systemPENS/
 ⭐ Jangan lupa kasih star jika project ini membantu!
 
 </div> ```
-````
