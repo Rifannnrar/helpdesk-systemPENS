@@ -128,7 +128,7 @@ Akses: /tickets
 
 **Project Structure**
 ```text
-helpdesk-systemPENS/
+helpdesk-system-pens/
 ├── app/
 │   ├── Http/Controllers/
 │   │   ├── AdminController.php
@@ -140,9 +140,28 @@ helpdesk-systemPENS/
 │       ├── Ticket.php
 │       └── Comment.php
 ├── database/migrations/
+│   ├── create_tickets_table.php
+│   ├── create_comments_table.php
+│   └── add_role_to_users_table.php
 ├── resources/views/
+│   ├── admin/dashboard.blade.php
+│   ├── tickets/
+│   └── auth/
 └── routes/web.php
 ```
+graph LR
+A[📝 Mahasiswa Buat Tiket] --> B[🟢 Open]
+B --> C[🟡 In Progress]
+C --> D[🔵 Resolved]
+D --> E[⚫ Closed]
+
+🤝 **Kontribusi**
+Ingin berkontribusi? Silakan!
+1. Fork project ini
+2. Buat feature branch (git checkout -b feature/AmazingFeature)
+3. Commit changes (git commit -m 'Add some AmazingFeature')
+4. Push ke branch (git push origin feature/AmazingFeature)
+5. Buat Pull Request
 
 <div align="center">
 ⭐ Jangan lupa kasih star jika project ini membantu!
