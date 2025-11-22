@@ -149,11 +149,6 @@ helpdesk-system-pens/
 │   └── auth/
 └── routes/web.php
 ```
-graph LR
-A[📝 Mahasiswa Buat Tiket] --> B[🟢 Open]
-B --> C[🟡 In Progress]
-C --> D[🔵 Resolved]
-D --> E[⚫ Closed]
 
 🤝 **Kontribusi**
 Ingin berkontribusi? Silakan!
@@ -165,5 +160,4 @@ Ingin berkontribusi? Silakan!
 
 <div align="center">
 ⭐ Jangan lupa kasih star jika project ini membantu!
-
 </div>
